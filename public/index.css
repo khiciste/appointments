@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+#root {
+  padding: 60px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav > a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+  margin-right: 30.5px;
+  text-decoration-line: none;
+}
+
+nav > a.active {
+  text-decoration-line: underline;
+}
+
+nav {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #979797;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+section {
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #979797;
+  margin: 20px 0;
+}
+
+input[type='submit'] {
+  background: white;
+  border-radius: 4px;
+  color: rgba(250, 85, 83, 1);
+  border: 2px solid rgba(250, 85, 83, 1);
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  padding: 7px 15px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#addContactButton {
+  width: 120px;
+}
+
+#createAppointmentButton {
+  width: 200px;
+}
+
+input,
+select {
+  box-sizing: border-box;
+  display: flex;
+  justify-items: left;
+  font-family: 'Open Sans', sans-serif;
+  background: #ffffff;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  padding: 7px 20px 9px 9.5px;
+  outline: none;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.tile {
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+/* was .tile.tile-title */
+.tile-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.tile-container {
+  margin-bottom: 20px;
+  width: 250px;
+  padding: 10px 15px;
+  color: white;
+  background-color: rgba(250, 85, 83, 1);
+  border-radius: 6px;
+}
