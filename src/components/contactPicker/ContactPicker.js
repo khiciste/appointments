@@ -9,13 +9,15 @@ export const ContactPicker = (props) => {
   return (
     <form>
       <label htmlFor='contactList'>Choose contact:</label>
-      <select id='contactList' onChange={props.onChange} required>
-        <option value={props.defaultListValue} 
-                key='default' 
-                selected='selected'>{props.defaultListValue}
-        </option>
-        {names}
-      </select>
+      <div class='selectWrapper'>
+        <select id='contactList' onChange={props.onChange} required>
+          <option value={props.defaultListValue} 
+                  key='default' 
+                  selected='selected'>{props.defaultListValue}
+          </option>
+          {names}
+        </select>
+      </div>
     </form>
   );
 };

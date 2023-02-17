@@ -8,7 +8,7 @@
 nav > a {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 20px;
   color: #000000;
   margin-right: 30.5px;
   text-decoration-line: none;
@@ -32,9 +32,6 @@ h2 {
   margin-bottom: 18px;
 }
 
-section {
-}
-
 hr {
   border: none;
   border-top: 1px solid #979797;
@@ -42,6 +39,7 @@ hr {
 }
 
 input[type='submit'] {
+  box-sizing: border-box;
   background: white;
   border-radius: 4px;
   color: rgba(250, 85, 83, 1);
@@ -57,11 +55,11 @@ input[type='submit'] {
 }
 
 #addContactButton {
-  width: 120px;
+  width: 130px;
 }
 
 #createAppointmentButton {
-  width: 200px;
+  width: 195px;
 }
 
 input,
@@ -70,10 +68,11 @@ select {
   display: flex;
   justify-items: left;
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
   background: #ffffff;
   border: 1px solid #979797;
   border-radius: 4px;
-  padding: 7px 20px 9px 9.5px;
+  padding: 7px 9.5px 9px 9.5px;
   outline: none;
   width: 300px;
   margin-bottom: 10px;
